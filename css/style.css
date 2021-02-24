@@ -1,0 +1,180 @@
+body {
+	font-family: Montserrat !important;
+}
+
+.navbar {
+	background-color: #F3F3F3;
+}
+
+.brand {
+	font-weight: 600;
+}
+
+.nav-item {
+	margin-right: 24px;
+	font-weight: 200;
+}
+
+nav .active {
+	color: #DB3433 !important;
+	font-weight: 400;
+}
+
+.nav-link span {
+	color: #DB3433;
+	font-weight: 600;
+}
+.nav-link img {
+	padding-bottom: 6px;
+	margin-right: 8px;
+}
+.text-slider {
+	color: #DB3433 !important;
+	font-weight: 600;
+	font-size: 50px;
+}
+
+.trending .rekomendasi {
+	background-color: #FCFCFC;
+}
+
+.trending h6, .rekomendasi h6, .product h6{
+	font-weight: bold;
+}
+
+.trending p, .rekomendasi p, .product p {
+	font-weight: 200;
+}
+
+.figure-caption h6 {
+	font-weight: bold;
+}
+
+.figure-caption p {
+	font-weight: 400;
+}
+
+.figure-caption span {
+	color: #DB3433;
+}
+
+.figure-img {
+	position: relative;
+}
+
+.figure-img a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+	opacity: 1;
+}
+
+.category {
+	background-color: #1B1B1B;
+}
+
+.category h6 {
+	color: #FCFCFC;
+	font-weight: bold;
+}
+
+.category p {
+	color: #FCFCFC;
+}
+
+.figure-category {
+	position: relative;
+}
+
+.figure-category a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: white;
+	text-decoration: none;
+}
+.figure-category:hover img {
+	opacity: 0.5;
+}
+
+footer {
+	background-color: #F3F3F3;
+}
+
+footer h5 {
+	font-weight: 600;
+}
+
+footer .medsos img {
+	width: 25px;
+	height: 25px;
+}
+
+footer .medsos a {
+	text-decoration: none;
+
+}
+
+footer .medsos .margin-right {
+	margin-right: 25px;
+}
+
+/*Men Category CSS*/
+
+.breadcrumb a {
+	text-decoration: none;
+	color: #111111;
+}
+
+/*Single Product*/
+
+.product-tumbnail-container {
+	/*width: 260px;*/
+	border: 1px solid #F3F3F3;
+	/*padding: 3px;*/
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-tumbnail-container a {
+	text-decoration: none;
+}
+
+.single-product .tab-content {
+	/*border: 1px solid #F3F3F3;*/
+	border-top: 0;
+	/*box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);*/
+	overflow: scroll;
+	height: 215px;
+	/*background-color: #F3F3F3;*/
+}
+
+.description-size .nav-tabs .active {
+	color: #DB3433 !important;
+}
+
+.description-size .size-mini {
+	font-weight: 200;
+	font-size: 16px;
+}
+
+/*.description-size {
+	height: 330px;
+	background-color: #F3F3F3;
+}
+*/
+
+/* Pilih Produk*/
+/*.pilih-product {
+	background-color: #F3F3F3;
+}*/
