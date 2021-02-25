@@ -86,7 +86,7 @@
           </div>
 
           <!-- Responsive Mobile -->
-          <div class="col-6 d-lg-none">
+          <div class="d-none d-sm-block col-6 d-lg-none">
             <figure class="figure">
               <img src="img/single_product/product1/1.png" class="figure-img img-fluid" alt="...">
               <figcaption class="figure-caption product-tumbnail-container d-flex justify-content-between p-2">
@@ -104,10 +104,68 @@
           </div>
           <!-- End Responsive Mobile -->
 
+          <!-- Untuk Layar paling kecil -->
+          <div class="col-12 d-sm-none text-center mb-3">
+            <figure class="figure">
+              <img src="img/single_product/product1/2.png" class="figure-img img-fluid" alt="...">
+              <figcaption class="figure-caption product-tumbnail-container d-flex justify-content-between p-2">
+                <a href="#">
+                  <img src="img/single_product/product1/tumbnail/2.png" class="img-fluid align-self-center">
+                </a>
+                <a href="#">
+                  <img src="img/single_product/product1/tumbnail/3.png" class="img-fluid align-self-center">
+                </a>
+                <a href="#">
+                  <img src="img/single_product/product1/tumbnail/4.png" class="img-fluid align-self-center">
+                </a>
+                <a href="#">
+                  <img src="img/single_product/product1/tumbnail/5.png" class="img-fluid align-self-center">
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- End Layar Paling Kecil -->
+
           <!-- Responsive Detail Product -->
-          <div class="col-6 d-lg-none pilih-product">
+          <div class="d-none d-sm-block col-6 d-lg-none pilih-product">
             <div class="row">
-              <h5 style="font-weight: 600;">ADIDAS SUPERNOVA SHOES</h5>
+              <h5 style="font-weight: 400;">ADIDAS SUPERNOVA SHOES</h5>
+              <h3 style="font-weight: 600;">IDR 1.599.900</h3>
+            </div>
+            <div class="row mb-2">
+              <div class="form-group">
+                <label>Warna Sepatu :</label>
+                <select class="form-select" aria-label="Default select example" style="font-weight: 200;">
+                  <option selected>Pilih warna</option>
+                  <option value="1">Merah</option>
+                  <option value="2">Hitam</option>
+                  <option value="3">Kuning</option>
+                  <option value="4">Biru</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="mt-1">Ukuran Sepatu :</label>
+                <select class="form-select" aria-label="Default select example" style="font-weight: 200;">
+                  <option selected>Pilih ukuran</option>
+                  <option value="1">38</option>
+                  <option value="2">39</option>
+                  <option value="3">40</option>
+                  <option value="4">41</option>
+                  <option value="5">42</option>
+                </select>
+              </div>
+            </div>
+            <div class="row p-2">
+              <a class="btn btn-dark btn-sm mb-3" href="" style="text-decoration: none; color: #f4f4f4;" data-bs-toggle="modal" data-bs-target="#cartModal">+ Keranjang</a>
+              <a  class="btn btn-danger btn-sm" href="checkout_product.html" style="text-decoration: none; color: #111111; ">Beli</a>
+            </div>
+          </div> 
+          <!-- Responsive Detail Product -->
+
+          <!-- Layar Paling Kecil -->
+          <div class="col-12 d-sm-none pilih-product">
+            <div class="row">
+              <h6 style="font-weight: 600;">ADIDAS SUPERNOVA SHOES</h6>
               <h4 style="font-weight: 600;">IDR 1.599.900</h4>
             </div>
             <div class="row mb-2">
@@ -138,8 +196,10 @@
               <a  class="btn btn-danger btn-sm" href="checkout_product.html" style="text-decoration: none; color: #111111; ">Beli</a>
             </div>
           </div> 
+          <!-- End Layar Paling Kecil -->
+
           <!-- Responsive Deskripsi Barang -->
-          <div class="col-12 d-lg-none description-size mt-3">
+          <div class="d-none d-sm-block col-12 d-lg-none description-size mt-3">
             <div class="row">
               <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -174,6 +234,45 @@
                     44 = 30 cm</p>
                 </div>
               </div>
+            </div>
+          </div>
+          <!-- End Responsive Detail Product  -->
+
+          <!-- Responsive Deskripsi Barang -->
+          <div class="col-12 d-sm-none description-size mt-3">
+            <div class="row">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-descrip-tab" data-bs-toggle="tab" data-bs-target="#nav-descrip" type="button" role="tab" aria-controls="nav-descrip" aria-selected="true">Deskripsi</button>
+                  <button class="nav-link" id="nav-size-tab" data-bs-toggle="tab" data-bs-target="#nav-size" type="button" role="tab" aria-controls="nav-size" aria-selected="false">Informasi</button>
+                  <!-- <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button> -->
+                </div>
+              </nav>
+              <div class="tab-content p-3" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-descrip" role="tabpanel" aria-labelledby="nav-descrip-tab">
+                  <p class="size-mini">- Sneakers desain timeless classic untuk effortless look <br>
+                    - Warna hitam <br>
+                    - Upper kanvas <br>
+                    - Insole sintetis <br>
+                    - Rubber oustole <br>
+                    - Tali depan <br>
+                    - Round toe <br>
+                    - Produk unisex <br>
+                    !! Cek informasi ukuran untuk mengetahui ukuran sepatu</p>
+                </div>
+                <div class="tab-pane fade" id="nav-size" role="tabpanel" aria-labelledby="nav-size-tab">
+                  <p class="size-mini">
+                    Ukuran Sepatu : <br> 
+                    36 = 22 cm <br>
+                    37 = 23 cm <br>
+                    38 = 24 cm <br>
+                    39 = 25 cm <br>
+                    40 = 26 cm <br>
+                    41 = 27 cm <br>
+                    42 = 28 cm <br>
+                    43 = 29 cm <br>
+                    44 = 30 cm</p>
+                </div>
             </div>
           </div>
           <!-- End Responsive Detail Product  -->
@@ -304,8 +403,9 @@
           </div>
         </div>
 
+        <!-- For Website -->
         <div class="row mt-2">
-          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
             <figure class="figure">
               <div class="figure-img">  
                 <img src="img/rekomendasi/1.png" class="figure-img img-fluid" alt="...">
@@ -317,7 +417,7 @@
                 <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">ADIDAS SAMBA SHOES</a></h6>
                 <div class="row">
                   <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>IDR 1.590.000</p>
+                    <p>Rp. 1.590.000</p>
                   </div>
                   <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
                     <p><span></span></p>
@@ -326,7 +426,7 @@
               </figcaption>
             </figure>
           </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
             <figure class="figure">
               <div class="figure-img">  
                 <img src="img/rekomendasi/2.png" class="figure-img img-fluid" alt="...">
@@ -338,16 +438,16 @@
                 <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">VANS AUTHENTIC</a></h6>
                 <div class="row">
                   <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>IDR 590.000</p>
+                    <p>Rp. 590.000</p>
                   </div>
                   <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span>Off 10%</span></p>
+                    <p><span>10%</span></p>
                   </div>
                 </div>
               </figcaption>
             </figure>
           </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
             <figure class="figure">
               <div class="figure-img">  
                 <img src="img/rekomendasi/3.png" class="figure-img img-fluid" alt="...">
@@ -359,16 +459,16 @@
                 <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">ADIDAS JOGGER SHOES</a></h6>
                 <div class="row">
                   <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>IDR 590.000</p>
+                    <p>Rp. 590.000</p>
                   </div>
                   <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span>Off 34%</span></p>
+                    <p><span>34%</span></p>
                   </div>
                 </div>
               </figcaption>
             </figure>
           </div>
-          <div class="col-6 col-sm-6 col-md-4 col-lg">
+          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
             <figure class="figure">
               <div class="figure-img">  
                 <img src="img/rekomendasi/4.png" class="figure-img img-fluid" alt="...">
@@ -380,7 +480,7 @@
                 <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">VANS AUTHENTIC</a></h6>
                 <div class="row">
                   <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>IDR 590.000</p>
+                    <p>Rp. 590.000</p>
                   </div>
                   <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
                     <p><span></span></p>
@@ -390,6 +490,97 @@
             </figure>
           </div>
         </div>
+        <!-- End For Website -->
+
+        <!-- For Hp Responsive -->
+        <div class="row mt-2 d-sm-none">
+          <div class="col-6">
+            <figure class="figure-box">
+              <div class="figure-img">  
+                <img src="img/rekomendasi/1.png" class="figure-img img-fluid" alt="...">
+                <a href="single_product.html" class="d-flex justify-content-center">
+                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
+                </a>
+              </div>
+              <figcaption class="figure-caption">
+                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">ADIDAS SAMBA SHOES</a></p>
+                <div class="row small mt-0">
+                  <div class="col-8">
+                    <p>Rp. 1.599.900</p>
+                  </div>
+                  <div class="col-4 d-flex justify-content-end">
+                    <p><span>20%</span></p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6">
+            <figure class="figure-box">
+              <div class="figure-img">  
+                <img src="img/rekomendasi/2.png" class="figure-img img-fluid" alt="...">
+                <a href="single_product.html" class="d-flex justify-content-center">
+                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
+                </a>
+              </div>
+              <figcaption class="figure-caption">
+                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">VANS AUTHENTIC</a></p>
+                <div class="row small mt-0">
+                  <div class="col-8">
+                    <p>Rp. 1.599.900</p>
+                  </div>
+                  <div class="col-4 d-flex justify-content-end">
+                    <p><span>20%</span></p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6">
+            <figure class="figure-box">
+              <div class="figure-img">  
+                <img src="img/rekomendasi/3.png" class="figure-img img-fluid" alt="...">
+                <a href="single_product.html" class="d-flex justify-content-center">
+                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
+                </a>
+              </div>
+              <figcaption class="figure-caption">
+                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">ADIDAS JOGGER SHOES</a></p>
+                <div class="row small mt-0">
+                  <div class="col-8">
+                    <p>Rp. 1.599.900</p>
+                  </div>
+                  <div class="col-4 d-flex justify-content-end">
+                    <p><span>20%</span></p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6">
+            <figure class="figure-box">
+              <div class="figure-img">  
+                <img src="img/rekomendasi/4.png" class="figure-img img-fluid" alt="...">
+                <a href="single_product.html" class="d-flex justify-content-center">
+                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
+                </a>
+              </div>
+              <figcaption class="figure-caption">
+                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">VANS AUTHENTIC</a></p>
+                <div class="row small mt-0">
+                  <div class="col-8">
+                    <p>Rp. 1.599.900</p>
+                  </div>
+                  <div class="col-4 d-flex justify-content-end">
+                    <p><span>20%</span></p>
+                  </div>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- End For Hp Responsive -->
+
       </div>      
     </section>
     <!-- End Rekomendasi -->
