@@ -66,7 +66,7 @@
       <div class="container">
         <div class="row mb-4 justify-content-between">
           <!-- Product & Custumor Detail -->
-          <div class="col-12 col-sm-10 col-mb-8 col-lg-6 mt-2">
+          <div class="d-none d-sm-block col-sm-10 col-mb-8 col-lg-6 mt-2">
             <!-- Product Information -->
             <h5 style="font-weight: 600;">Informasi Produk</h5>
             <div class="row mt-3">
@@ -217,11 +217,12 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>         
             <!-- End Product Information -->
 
+
             <!-- Costumer Detail -->
-            <div class="row mt-4 pt-3 pb-4" style="border-top: 2px solid #F4F4F4;">
+            <div class="row mt-4 pt-3" style="border-top: 2px solid #F4F4F4;">
               <h5 style="font-weight: 600;" class="mt-2">Data Penerima dan Pengiriman</h5>
               <div class="form mt-2">
                 <div class="mb-3">
@@ -249,10 +250,105 @@
             </div>
             <!-- End Costumer Detail -->
           </div>
+
+          <div class="col-12 d-sm-none">
+            <!-- Responsive -->
+            <div class="row mt-3 d-sm-none">
+              <!-- Gambar -->
+              <div class="col-3 d-flex">
+                <img class="align-self-center img-fluid" src="img/checkout/1.png">
+              </div>
+              <div class="col-9">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0 small"  style="font-weight: 200;">ADIDAS SUPERNOVA SHOES, B-40</p>
+                  <h6 class="small"  style="font-weight: 600;">IDR 590.000</h6>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-10 mr-0 ml-0 small">
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2 p-3 pb-0" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-plus-circle"></i></button>
+                    <button type="button" class="btn btn-sm pl-5" style="color: #111111;"><i class="fas fa-trash-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 d-sm-none">
+              <!-- Gambar -->
+              <div class="col-3 d-flex">
+                <img class="align-self-center img-fluid" src="img/checkout/2.png">
+              </div>
+              <div class="col-9">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0 small"  style="font-weight: 200;">ADIDAS SHOES, H-38</p>
+                  <h6 class="small"  style="font-weight: 600;">IDR 590.000</h6>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-10 mr-0 ml-0 small">
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2 p-3 pb-0" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-plus-circle"></i></button>
+                    <button type="button" class="btn btn-sm pl-5" style="color: #111111;"><i class="fas fa-trash-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 d-sm-none">
+              <!-- Gambar -->
+              <div class="col-3 d-flex">
+                <img class="align-self-center img-fluid" src="img/checkout/3.png">
+              </div>
+              <div class="col-9">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0 small"  style="font-weight: 200;">ADIDAS STAN SMITH SHOES XI, P-39</p>
+                  <h6 class="small"  style="font-weight: 600;">IDR 590.000</h6>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-10 mr-0 ml-0 small">
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2 p-3 pb-0" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-plus-circle"></i></button>
+                    <button type="button" class="btn btn-sm pl-5" style="color: #111111;"><i class="fas fa-trash-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Costumer Detail -->
+            <div class="row mt-4 pt-3" style="border-top: 2px solid #F4F4F4;">
+              <h5 style="font-weight: 600;" class="mt-2">Data Penerima dan Pengiriman</h5>
+              <div class="form mt-2">
+                <div class="mb-3">
+                  <label for="adress" class="form-label" style="font-weight: 600;">Nama Penerima :</label>
+                  <input type="text" class="form-control" id="adress" placeholder="Nama penerima..">
+                </div>
+                <div class="mb-3">
+                  <label for="adress2" class="form-label" style="font-weight: 600;">Nomor Telepon :</label>
+                  <input type="text" class="form-control" id="adress2" placeholder="Nomor telepon..">
+                </div>
+                <div class="mb-3">
+                  <label for="adress2" class="form-label" style="font-weight: 600;">Alamat Penerima Lengkap :</label>
+                  <input type="text" class="form-control" id="adress2" placeholder="Alamat penerima..">
+                </div>
+                <div class="mb-3">
+                  <label for="country" class="form-label" style="font-weight: 600;">Kurir Pengiriman Paket :</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Pilih Kurir</option>
+                    <option value="1">JNE Express</option>
+                    <option value="2">Pos Indonesia</option>
+                    <option value="3">J&T</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- End Costumer Detail -->
+            
+            <!-- End Responsive -->
+          </div>
           <!-- Detail Biaya -->
-          <div class="col-12 col-sm-10 col-mb-8 col-lg-5 mb-5">
+          <div class="col-12 col-sm-10 col-md-8 col-lg-5  mb-5">
             <div class="row" style="background-color: #F3F3F3;">
-              <h5 style="font-weight: 600;" class="mt-2">Informasi Biaya</h5>
+              <h6 style="font-weight: 600;" class="mt-2">Informasi Biaya</h6>
             
               <div class="row mt-2">
                 <h6 style="font-weight: 600;">Ringkasan Biaya</h6>
