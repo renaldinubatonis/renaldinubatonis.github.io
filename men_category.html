@@ -33,10 +33,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav text-uppercase mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  active" href="category.html">Category</a>
+              <a class="nav-link" href="category.html">Category</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
@@ -53,329 +53,361 @@
       <nav>
         <ol class="breadcrumb pt-5">
           <li class="breadcrumb-item"><a href="category.html">Category</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Men</li>
+          <li class="breadcrumb-item"><a href="men_category.html">Men</a></li>
+          <li class="breadcrumb-item"><a href="single_product.html">Detail Product</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Checkout</li>
         </ol>
       </nav>
     </div>
     <!-- End Breadcrumbs -->
 
-    <!-- Product -->
-    <section class="product mt-4">
+    <!-- Product Detail Checkout -->
+    <section class="product-detail-checkout">
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <h4>SEPATU PRIA</h4>
-            <p>Sepatu yang berkualitas dengan harga terbaik untuk menunjang kepercayaan dirimu.</p>
-          </div>
-        </div>
+        <div class="row mb-4 justify-content-between">
+          <!-- Product & Custumor Detail -->
+          <div class="d-none d-sm-block col-sm-10 col-mb-8 col-lg-6 mt-2">
+            <!-- Product Information -->
+            <h5 style="font-weight: 600;">Informasi Produk</h5>
+            <div class="row mt-3">
+              <!-- Gambar -->
+              <div class="col-2 d-flex">
+                <img class="align-self-center" src="img/checkout/1.png">
+              </div>
+              <!-- Detail -->
+              <div class="col-6">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0"  style="font-weight: 600;">Converse All Star XI</p>
+                  <h5 class="mt-0"  style="font-weight: 600;">IDR 590.000</h5>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-6">
+                    <form>
+                      <select class="form-select" aria-label="Default select example" style="font-weight: 200;">
+                        <option selected>Biru</option>
+                        <option value="1">Merah</option>
+                        <option value="2">Hitam</option>
+                        <option value="3">Kuning</option>
+                      </select>
+                    </form>
+                  </div>
+                  <div class="col-6">
+                    <form>
+                      <select class="form-select" aria-label="Default select example" style="font-weight: 200;">
+                        <option selected>40</option>
+                        <option value="1">38</option>
+                        <option value="2">39</option>
+                        <option value="3">41</option>
+                        <option value="4">42</option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!-- Jumlah & Cancel -->
+              <div class="col-4 d-flex">
+                <div class="row align-self-center">
+                  <div class="col-10 mr-0 ml-0">
+                    <button type="button" class="btn btn-sm" style="background-color: #C1C1C1; color: white;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm" style="background-color: #C1C1C1; color: white;"><i class="fas fa-plus-circle"></i></button>
+                  </div>
+                  <div class="col-2 align-items-center d-flex justify-content-end">
+                    <button type="button" class="btn btn-sm btn-dark" style="color: white;"><i class="fas fa-trash-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <!-- For Website -->
-        <div class="row mt-2">
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/trending/1.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
+            <div class="row mt-3">
+              <!-- Gambar -->
+              <div class="col-2 d-flex">
+                <img class="align-self-center" src="img/checkout/2.png">
               </div>
-              <figcaption class="figure-caption">
-                <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">ADIDAS SUPERNOVA+ SHOES</a></h6>
-                <div class="row">
-                  <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>Rp. 1.599.900</p>
+              <!-- Detail -->
+              <div class="col-6">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0"  style="font-weight: 600;">Converse All Star XI</p>
+                  <h5 class="mt-0"  style="font-weight: 600;">IDR 590.000</h5>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-6">
+                    <form>
+                      <select class="form-select" aria-label="Default select example" style="font-weight: 200;">
+                        <option selected>Hitam</option>
+                        <option value="1">Merah</option>
+                        <option value="2">Hitam</option>
+                        <option value="3">Kuning</option>
+                      </select>
+                    </form>
                   </div>
-                  <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span>20%</span></p>
+                  <div class="col-6">
+                    <form>
+                      <select class="form-select" aria-label="Default select example" style="font-weight: 200;">
+                        <option selected>37</option>
+                        <option value="1">38</option>
+                        <option value="2">39</option>
+                        <option value="3">41</option>
+                        <option value="4">42</option>
+                      </select>
+                    </form>
                   </div>
                 </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/trending/2.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
               </div>
-              <figcaption class="figure-caption">
-                <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">ADIDAS STAN SMITH SHOES</a></h6>
-                <div class="row">
-                  <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>Rp. 590.000</p>
+              <!-- Jumlah & Cancel -->
+              <div class="col-4 d-flex">
+                <div class="row align-self-center">
+                  <div class="col-10 mr-0 ml-0">
+                    <button type="button" class="btn btn-sm" style="background-color: #C1C1C1; color: white;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm" style="background-color: #C1C1C1; color: white;"><i class="fas fa-plus-circle"></i></button>
                   </div>
-                  <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span></span></p>
+                  <div class="col-2 align-items-center d-flex justify-content-end">
+                    <button type="button" class="btn btn-sm btn-dark" style="color: white;"><i class="fas fa-trash-alt"></i></button>
                   </div>
                 </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/trending/3.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
               </div>
-              <figcaption class="figure-caption">
-                <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">NIKE AIRMAX BLACK</a></h6>
-                <div class="row">
-                  <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>Rp. 590.000</p>
-                  </div>
-                  <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span>30%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/trending/4.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
-              </div>
-              <figcaption class="figure-caption">
-                <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">ADIDAS STAN SMITH SHOES</a></h6>
-                <div class="row">
-                  <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>Rp. 590.000</p>
-                  </div>
-                  <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span>10%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
-            <figure class="figure">
-              <div class="figure-img">  
-                <img src="img/rekomendasi/1.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
-              </div>
-              <figcaption class="figure-caption">
-                <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">ADIDAS SAMBA SHOES</a></h6>
-                <div class="row">
-                  <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>Rp. 1.590.000</p>
-                  </div>
-                  <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span></span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
-            <figure class="figure">
-              <div class="figure-img">  
-                <img src="img/rekomendasi/2.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
-              </div>
-              <figcaption class="figure-caption">
-                <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">VANS AUTHENTIC</a></h6>
-                <div class="row">
-                  <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>Rp. 590.000</p>
-                  </div>
-                  <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span>10%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3">
-            <figure class="figure">
-              <div class="figure-img">  
-                <img src="img/rekomendasi/3.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
-              </div>
-              <figcaption class="figure-caption">
-                <h6><a href="single_product.html" style="text-decoration: none; color: #111111;">ADIDAS JOGGER SHOES</a></h6>
-                <div class="row">
-                  <div class="col-7 col-sm-7 col-md-7 col-lg-6">
-                    <p>Rp. 590.000</p>
-                  </div>
-                  <div class="col-5 col-sm-5 col-md-5 col-lg-6 d-flex justify-content-end">
-                    <p><span>34%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <!-- End For Website -->
+            </div>
 
-        <!-- For Responsive HP -->
-        <div class="row mt-2 d-sm-none">
-          <div class="col-6">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/trending/1.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
+            <div class="row mt-3">
+              <!-- Gambar -->
+              <div class="col-2 d-flex">
+                <img class="align-self-center" src="img/checkout/3.png">
               </div>
-              <figcaption class="figure-caption">
-                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">ADIDAS SUPERNOVA SHOES</a></p>
-                <div class="row small mt-0">
-                  <div class="col-8">
-                    <p>Rp. 1.599.900</p>
+              <!-- Detail -->
+              <div class="col-6">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0"  style="font-weight: 600;">Converse All Star XI</p>
+                  <h5 class="mt-0"  style="font-weight: 600;">IDR 590.000</h5>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-6">
+                    <form>
+                      <select class="form-select" aria-label="Default select example" style="font-weight: 200;">
+                        <option selected>Putih</option>
+                        <option value="1">Merah</option>
+                        <option value="2">Hitam</option>
+                        <option value="3">Kuning</option>
+                      </select>
+                    </form>
                   </div>
-                  <div class="col-4 d-flex justify-content-end">
-                    <p><span>20%</span></p>
+                  <div class="col-6">
+                    <form>
+                      <select class="form-select" aria-label="Default select example" style="font-weight: 200;">
+                        <option selected>39</option>
+                        <option value="1">38</option>
+                        <option value="2">39</option>
+                        <option value="3">41</option>
+                        <option value="4">42</option>
+                      </select>
+                    </form>
                   </div>
                 </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/trending/2.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
               </div>
-              <figcaption class="figure-caption">
-                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">ADIDAS STAN SMITH SHOES</a></p>
-                <div class="row small mt-0">
-                  <div class="col-8">
-                    <p>Rp. 1.599.900</p>
+              <!-- Jumlah & Cancel -->
+              <div class="col-4 d-flex">
+                <div class="row align-self-center">
+                  <div class="col-10 mr-0 ml-0">
+                    <button type="button" class="btn btn-sm" style="background-color: #C1C1C1; color: white;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm" style="background-color: #C1C1C1; color: white;"><i class="fas fa-plus-circle"></i></button>
                   </div>
-                  <div class="col-4 d-flex justify-content-end">
-                    <p><span>20%</span></p>
+                  <div class="col-2 align-items-center d-flex justify-content-end">
+                    <button type="button" class="btn btn-sm btn-dark" style="color: white;"><i class="fas fa-trash-alt"></i></button>
                   </div>
                 </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/trending/3.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
               </div>
-              <figcaption class="figure-caption">
-                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">NIKE AIRMAX BLACK</a></p>
-                <div class="row small mt-0">
-                  <div class="col-8">
-                    <p>Rp. 1.599.900</p>
-                  </div>
-                  <div class="col-4 d-flex justify-content-end">
-                    <p><span>20%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/trending/4.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
-              </div>
-              <figcaption class="figure-caption">
-                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">ADIDAS STAN SMITH SHOES</a></p>
-                <div class="row small mt-0">
-                  <div class="col-8">
-                    <p>Rp. 1.599.900</p>
-                  </div>
-                  <div class="col-4 d-flex justify-content-end">
-                    <p><span>20%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/rekomendasi/1.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
-              </div>
-              <figcaption class="figure-caption">
-                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">ADIDAS SAMBA SHOES</a></p>
-                <div class="row small mt-0">
-                  <div class="col-8">
-                    <p>Rp. 1.599.900</p>
-                  </div>
-                  <div class="col-4 d-flex justify-content-end">
-                    <p><span>20%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/rekomendasi/2.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
-              </div>
-              <figcaption class="figure-caption">
-                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">VANS AUTHENTIC</a></p>
-                <div class="row small mt-0">
-                  <div class="col-8">
-                    <p>Rp. 1.599.900</p>
-                  </div>
-                  <div class="col-4 d-flex justify-content-end">
-                    <p><span>20%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-6">
-            <figure class="figure-box">
-              <div class="figure-img">  
-                <img src="img/rekomendasi/3.png" class="figure-img img-fluid" alt="...">
-                <a href="single_product.html" class="d-flex justify-content-center">
-                  <i class="fas fa-plus-circle fa-2x align-self-center" style="color: #DB3433;"></i>
-                </a>
-              </div>
-              <figcaption class="figure-caption">
-                <p class="small mb-0" style="font-weight: 600;"><a href="single_product.html" class="m-0 p-0 title-product" style="text-decoration: none; color: #111111;">ADIDAS JOGGER SHOES</a></p>
-                <div class="row small mt-0">
-                  <div class="col-8">
-                    <p>Rp. 1.599.900</p>
-                  </div>
-                  <div class="col-4 d-flex justify-content-end">
-                    <p><span>20%</span></p>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-        <!-- End For Responsive HP -->
+            </div>         
+            <!-- End Product Information -->
 
-      </div>      
+
+            <!-- Costumer Detail -->
+            <div class="row mt-4 pt-3" style="border-top: 2px solid #F4F4F4;">
+              <h5 style="font-weight: 600;" class="mt-2">Data Penerima dan Pengiriman</h5>
+              <div class="form mt-2">
+                <div class="mb-3">
+                  <label for="adress" class="form-label" style="font-weight: 600;">Nama Penerima :</label>
+                  <input type="text" class="form-control" id="adress" placeholder="Nama penerima..">
+                </div>
+                <div class="mb-3">
+                  <label for="adress2" class="form-label" style="font-weight: 600;">Nomor Telepon :</label>
+                  <input type="text" class="form-control" id="adress2" placeholder="Nomor telepon..">
+                </div>
+                <div class="mb-3">
+                  <label for="adress2" class="form-label" style="font-weight: 600;">Alamat Penerima Lengkap :</label>
+                  <input type="text" class="form-control" id="adress2" placeholder="Alamat penerima..">
+                </div>
+                <div class="mb-3">
+                  <label for="country" class="form-label" style="font-weight: 600;">Kurir Pengiriman Paket :</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Pilih Kurir</option>
+                    <option value="1">JNE Express</option>
+                    <option value="2">Pos Indonesia</option>
+                    <option value="3">J&T</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- End Costumer Detail -->
+          </div>
+
+          <div class="col-12 d-sm-none">
+            <!-- Responsive -->
+            <div class="row mt-3 d-sm-none">
+              <!-- Gambar -->
+              <div class="col-3 d-flex">
+                <img class="align-self-center img-fluid" src="img/checkout/1.png">
+              </div>
+              <div class="col-9">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0 small"  style="font-weight: 200;">ADIDAS SUPERNOVA SHOES, B-40</p>
+                  <h6 class="small"  style="font-weight: 600;">IDR 590.000</h6>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-10 mr-0 ml-0 small">
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2 p-3 pb-0" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-plus-circle"></i></button>
+                    <button type="button" class="btn btn-sm pl-5" style="color: #111111;"><i class="fas fa-trash-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 d-sm-none">
+              <!-- Gambar -->
+              <div class="col-3 d-flex">
+                <img class="align-self-center img-fluid" src="img/checkout/2.png">
+              </div>
+              <div class="col-9">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0 small"  style="font-weight: 200;">ADIDAS SHOES, H-38</p>
+                  <h6 class="small"  style="font-weight: 600;">IDR 590.000</h6>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-10 mr-0 ml-0 small">
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2 p-3 pb-0" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-plus-circle"></i></button>
+                    <button type="button" class="btn btn-sm pl-5" style="color: #111111;"><i class="fas fa-trash-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 d-sm-none">
+              <!-- Gambar -->
+              <div class="col-3 d-flex">
+                <img class="align-self-center img-fluid" src="img/checkout/3.png">
+              </div>
+              <div class="col-9">
+                <div class="row p-0 m-0">
+                  <p class="mb-0 mt-0 small"  style="font-weight: 200;">ADIDAS STAN SMITH SHOES XI, P-39</p>
+                  <h6 class="small"  style="font-weight: 600;">IDR 590.000</h6>
+                </div>
+                <div class="row p-0 m-0">
+                  <div class="col-10 mr-0 ml-0 small">
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-minus-circle"></i></button>
+                    <span class="mx-2 p-3 pb-0" style="border-bottom: 1px solid #C1C1C1">1</span>
+                    <button type="button" class="btn btn-sm m-0 p-0" style="color: #C1C1C1;"><i class="fas fa-plus-circle"></i></button>
+                    <button type="button" class="btn btn-sm pl-5" style="color: #111111;"><i class="fas fa-trash-alt"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Costumer Detail -->
+            <div class="row mt-4 pt-3" style="border-top: 2px solid #F4F4F4;">
+              <h5 style="font-weight: 600;" class="mt-2">Data Penerima dan Pengiriman</h5>
+              <div class="form mt-2">
+                <div class="mb-3">
+                  <label for="adress" class="form-label" style="font-weight: 600;">Nama Penerima :</label>
+                  <input type="text" class="form-control" id="adress" placeholder="Nama penerima..">
+                </div>
+                <div class="mb-3">
+                  <label for="adress2" class="form-label" style="font-weight: 600;">Nomor Telepon :</label>
+                  <input type="text" class="form-control" id="adress2" placeholder="Nomor telepon..">
+                </div>
+                <div class="mb-3">
+                  <label for="adress2" class="form-label" style="font-weight: 600;">Alamat Penerima Lengkap :</label>
+                  <input type="text" class="form-control" id="adress2" placeholder="Alamat penerima..">
+                </div>
+                <div class="mb-3">
+                  <label for="country" class="form-label" style="font-weight: 600;">Kurir Pengiriman Paket :</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Pilih Kurir</option>
+                    <option value="1">JNE Express</option>
+                    <option value="2">Pos Indonesia</option>
+                    <option value="3">J&T</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- End Costumer Detail -->
+            
+            <!-- End Responsive -->
+          </div>
+          <!-- Detail Biaya -->
+          <div class="col-12 col-sm-10 col-md-8 col-lg-5  mb-5">
+            <div class="row" style="background-color: #F3F3F3;">
+              <h6 style="font-weight: 600;" class="mt-2">Informasi Biaya</h6>
+            
+              <div class="row mt-2">
+                <h6 style="font-weight: 600;">Ringkasan Biaya</h6>
+                <div class="col">
+                  <small>Total Harga (3 Barang)</small>
+                </div>
+                <div class="col d-flex justify-content-end p-0">
+                  <h6 style="font-weight: 600;">IDR 1.550.900</h6>
+                </div>
+              </div>
+
+              <div class="row mt-2">
+                <h6 style="font-weight: 600;">Biaya Pengiriman</h6>
+                <div class="col">
+                  <small>Harga</small>
+                </div>
+                <div class="col d-flex justify-content-end p-0">
+                  <h6 style="font-weight: 600;">IDR 150.900</h6>
+                </div>
+              </div>
+
+              <div class="row mt-2">
+                <h6 style="font-weight: 600;">Promo</h6>
+                <div class="col">
+                  <small>Diskon 10%</small>
+                </div>
+                <div class="col d-flex justify-content-end p-0">
+                  <h6 style="font-weight: 600; color: #DB3433;">IDR 155.900</h6>
+                </div>
+              </div>
+
+              <div class="row mt-2">
+                <hr class="m-2">
+                <div class="col mt-1">
+                  <h5 style="font-weight: 600;">Total Pembayaran</h5>
+                </div>
+                <div class="col d-flex justify-content-end p-0 mt-1">
+                  <h5 style="font-weight: 600;">IDR 1.550.900</h5>
+                </div>
+                <hr class="m-2">
+              </div>
+
+              <div class="row mt-3 mb-4">
+                <div class="col d-grid">
+                  <a href="single_product.html" class="btn btn-dark">cancel</a>
+                  <!-- <button type="button" class="btn btn-dark">Cancel</button>     -->
+                </div>
+                <div class="col d-grid p-0">
+                  <a href="" class="btn text-white" style="background-color: #DB3433;" data-bs-toggle="modal" data-bs-target="#checkoutModal">Checkout</a>
+                  <!-- <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#checkoutModal" style="background-color: #DB3433;">Checkout</button>     -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Detail Biaya -->
+        </div>
+      </div>
     </section>
-    <!-- End Product -->
+    <!-- End Product Detail Checkout-->
 
     <!-- Footer -->
     <footer>
@@ -426,3 +458,20 @@
     
   </body>
 </html>
+
+
+<!-- Modal -->
+    <div class="modal fade checkout-modal-success" id="checkoutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <img src="img/checkout/success.png" class="mb-5">
+            <h3 style="font-weight: 600;">Checkout Berhasil</h3>
+            <p style="font-weight: 200;">Terima kasih telah berbelanja disini, <br>
+              barang anda akan kami kirim dan mohon menunggu.</p>
+            <a class="btn btn-danger mt-2" href="index.html" style="text-decoration: none; color: white;" >Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- End Modals -->
